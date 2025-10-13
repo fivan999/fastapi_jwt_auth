@@ -1,6 +1,6 @@
 ###########################################################
 # Base Python image. Set shared environment variables.
-FROM python:3.12-alpine AS base
+FROM python:3.14-alpine AS base
 ENV PYTHONUNBUFFERED=1 \
     PYSETUP_PATH="/opt/pysetup" \
     VENV_PATH="/opt/pysetup/.venv" \
